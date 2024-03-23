@@ -1,0 +1,51 @@
+﻿<Window x:Class="Laboratorio02.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laboratorio02"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800">
+    <Grid>
+        <ListBox Margin="10">
+            <ListBoxItem>
+                <TextBlock Text="Operaciones" FontWeight="Bold" FontSize="20"/>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Button Content="Ingresos" Click="Ingreso_Click"/>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Button Content="Salidas" Click="Salida_Click"/>
+            </ListBoxItem>
+
+            <ListBoxItem>
+                <TextBlock Text="Mantenimiento" FontWeight="Bold" FontSize="20"/>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Button Content="Conductores" Click="Conductores_Click"/>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Button Content="Transportistas" Click="Transportistas_Click"/>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Button Content="Camiones" Click="Camiones_Click"/>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Button Content="Productos" Click="Productos_Click"/>
+            </ListBoxItem>
+
+            <ListBoxItem>
+                <TextBlock Text="Informes" FontWeight="Bold" FontSize="20"/>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Button Content="Cargas" Click="Cargas_Click"/>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Button Content="Ingresos" Click="Ingresos_Click"/>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Button Content="Salidas" Click="Salidas_Click"/>
+            </ListBoxItem>
+        </ListBox>
+    </Grid>
+</Window>
